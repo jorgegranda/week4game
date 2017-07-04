@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollectorGame </title>
+	<meta charset="utf-8">	
+
+	<link rel="stylesheet" type="text/css" href="reset.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+</head>
+   <body>
+
+
+		<!-- // Document Content & Class's/ID's // -->		
+
+		<div class="header">
+		    <h1>CrystalsCollector!</h1>
+		</div>
+
+		<div class="inst">
+		    <ul>
+		        <li>You will be given a random number at the start of the game.</li></br>
+
+		        <li>The will be four crystals below. By clicking on a crytal you will add a specific amount of points to your total score.</li></br>
+
+		        <li>The valaue of yeach crystal is hiden from you until you click on it</li></br>
+
+		        <li>Each time when the game starts, the game will change the value of each crystal.</li>	
+			</ul>
+		</div>
+
+		
+		<!-- // DOM Elements // -->
+
+		
+	    <div class="numBox">
+		<p>Random Number:<p><span id="numRandom"></span>
+		</div>				
+		
+		<div class="wins-losses">
+			<p>Wins:
+				<span id="wins"></span></p>
+			<p>Losses:
+				<span id="losses"></span></p>		
+		</div>
+		
+
+		<div class="gemStones" class="col-md-4">
+			<img src="assets/images/red.png" class="image" id="red" alt="Red Stone"> 
+			<img src="assets/images/blue.png" class="image" id="blue" alt="Blue Stone">
+			<img src="assets/images/yellow.png" class="image" id="yellow" alt="Yelow Stone">
+			<img src="assets/images/green.png" class="image" id="green" alt="Green Stone">
+		</div>
+
+		<div class="totalScore">
+			<p>Your total score is:
+				<span id="score"></span></p>
+		</div>	
+
+		
+	
+			
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+                <script type="text/javascript" src=game.js></script>
+
+     </body>
+</html>

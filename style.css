@@ -1,0 +1,100 @@
+         /* CSS Styles Sheet */
+ /*/ Styles for the crystal-graphics /*/
+
+/*// Background Styles //*/
+
+body {
+	background-image: url("assets/images/background.jpg");
+
+}
+
+div.inst, div.totalScore, div.wins-losses, div.numBox {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}	
+
+div.inst, div.totalScore, div.wins-losses, div.numBox {	
+	border: solid 2px antiquewhite;
+	padding: 10px;*/
+}
+
+
+div.header {
+	text-align: left;
+	background-color: #e67300;
+	color: white;
+	width: 12%; 
+	margin: 10px;
+	width: 30%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+
+}
+
+div.inst {
+	background-color: #ffe6ff;
+	color: green;
+	font-weight: bold;
+	margin: 10px;
+	width: 8%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+div.numBox {
+	background-color: #00cc66;
+	color: #993366;
+
+}
+
+div.wins-losses {
+	background-color: #00ffff;
+	color: #3333ff;
+}
+
+
+#red {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+#blue {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+#yellow {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+#green {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+
+
+div.totalScore {
+	background-color: #009900;
+	color: white;
+	margin: 10px;
+	width: 25%
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+
